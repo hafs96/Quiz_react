@@ -9,7 +9,7 @@ const initialState = {
   erreur: false,
   correcte: 0,
   index: 0,
-  url: `https://opentdb.com/api.php?amount=10&category=21&difficulty=easy&type=multiple`,
+  url: `https://opentdb.com/api.php?amount=10&category=19&difficulty=easy&type=multiple`,
   questions: [],
 };
 
