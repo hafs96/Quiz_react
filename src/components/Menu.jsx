@@ -43,8 +43,8 @@ const Menu = () => {
         <div>
           <label>Catégories : </label>
           <select onChange={onChangeHandlerCategorie}>
-            <option value='19'>Mathématiques</option>
             <option value='18'>IT</option>
+            <option value='19'>Jeux vidéo</option>
           </select>
         </div>
 
