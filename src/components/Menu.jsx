@@ -8,7 +8,7 @@ const Menu = () => {
   const dispatch = useDispatch();
 
   const [nbquestions, setNbQuestions] = useState(5);
-  const [categorie, setCategorie] = useState(19);
+  const [categorie, setCategorie] = useState(18);
   const [difficulte, setdifficulte] = useState('easy');
 
   const onSubmitHandler = (e) => {
@@ -44,7 +44,7 @@ const Menu = () => {
           <label>Catégories : </label>
           <select onChange={onChangeHandlerCategorie}>
             <option value='18'>IT</option>
-            <option value='19'>Jeux vidéo</option>
+            <option value='15'>Jeux vidéo</option>
           </select>
         </div>
 
